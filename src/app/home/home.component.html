@@ -1,0 +1,10 @@
+<div class="jumbotron">
+  <img src="/assets/images/tca.jpg" width="150px" height="100px" class="img-fluid float-left">
+  <h1>SI QUIERE PASAR UN BUEN RATO ACUDA Y PRUEBE LO QUE ES TIRAR CON ARCO</h1>
+</div>
+<div class="row">
+  <div *ngFor="let competicion of competicions" class="col-12 col-md-6  col-lg-4">
+    <app-competicion-item [competicion]="competicion"></app-competicion-item>
+  </div>
+</div>
+
