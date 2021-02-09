@@ -15,7 +15,7 @@ var competiciones = [
     new Competicion(2, "Sevilla", ["1 Liga Nacional 3D"]),
     new Competicion(3, "Tudela", ["2 Liga Nacional 3D", "3 Liga Nacional de Campo"]),
     new Competicion(4, "Almeria", ["Cto. España Aire Libre", "Cto. España Campo", "Cto. España 3D"]),
-    new Competicion(5, "Toledo", ["2 GP España"])
+    new Competicion(5, "Toleddo", ["2 GP España"])
 ];
 function getCompeticiones() {
     return competiciones;
