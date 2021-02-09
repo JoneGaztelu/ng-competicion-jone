@@ -18,12 +18,8 @@ export class NavbarComponent implements OnInit {
 
   newCompeticion(){
       // Get max product Id from the product list
-      this.competicionService.getMaxCompeticionId().subscribe(data =>{
-        this.id = data;
-        this.router.navigate(['/competicions', this.id, 'new']);
-      }
-
-        
+      this.competicionService.getMaxCompeticionId().subscribe(
+        data =>this.router.navigate(['/competicions', this.id, 'new']) 
       );
       
   }
