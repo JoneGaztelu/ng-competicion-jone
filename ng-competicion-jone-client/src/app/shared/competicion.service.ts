@@ -10,7 +10,7 @@ import { Competicion } from './competicion';
   providedIn: 'root'
 })
 export class CompeticionService {
-  private competicionesUrl = 'localhost:8000/competiciones';
+  private competicionesUrl = 'http://localhost:8000/competiciones';
 
   constructor(private http: HttpClient) { }
 

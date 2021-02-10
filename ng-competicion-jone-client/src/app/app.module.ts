@@ -37,7 +37,7 @@ import { CompeticionNewComponent } from './competicion-new/competicion-new.compo
     AppRoutingModule,
     BrowserModule,
     HttpClientModule,
-    InMemoryWebApiModule.forRoot(CompeticionData)
+    //InMemoryWebApiModule.forRoot(CompeticionData)
   ],
   providers: [CompeticionService],
   bootstrap: [AppComponent]
